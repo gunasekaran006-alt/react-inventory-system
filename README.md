@@ -6,7 +6,7 @@ A simple and efficient CRUD-based inventory management system built with React a
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="/src/assets/demo.jpg.png" alt="Inventory Dashboard" width="800">
+  <img src="/src/assets/demo.jpg" alt="Inventory Dashboard" width="800">
 </p>
 
 
