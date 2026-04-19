@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 2500,
+      "stock": 15,
+      "supplier": "Tech Zone",
+      "dateAdded": "2024-03-15"
+    },
+    {
+      "id": "2",
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 1200,
+      "stock": 30,
+      "supplier": "Logitech Store",
+      "dateAdded": "2024-03-18"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

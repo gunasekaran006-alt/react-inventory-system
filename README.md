@@ -1,16 +1,30 @@
-# React + Vite
+# Smart Inventory Dashboard 📦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient CRUD-based inventory management system built with React and JSON Server. This project allows users to manage product details like stock quantity, pricing, and supplier information in real-time.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Create:** Add new products with specific details.
+- **Read:** View a comprehensive list of all inventory items in a table.
+- **Update:** (Planned feature) Edit existing product details.
+- **Delete:** Remove products from the inventory.
+- **Mock Backend:** Uses JSON Server to simulate real API behavior.
+- **Responsive UI:** Styled using Tailwind CSS for a modern look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router Dom
+- **HTTP Client:** Axios
+- **Backend:** JSON Server (Mock API)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```text
+src/
+├── components/
+│   ├── Api.jsx          # Axios API configurations
+│   ├── ProductForm.jsx   # Form to add products
+│   └── ProductTable.jsx  # Table to display products
+├── App.jsx               # Main application logic
+├── main.jsx              # Entry point with Router setup
+└── index.css             # Tailwind directives
+db.json                   # Mock database file
