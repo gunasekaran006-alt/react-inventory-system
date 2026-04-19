@@ -2,6 +2,14 @@
 
 A simple and efficient CRUD-based inventory management system built with React and JSON Server. This project allows users to manage product details like stock quantity, pricing, and supplier information in real-time.
 
+
+## 📸 Screenshot
+
+<p align="center">
+  <img src="/src/assets/demo.jpg.png" alt="Inventory Dashboard" width="800">
+</p>
+
+
 ## 🚀 Features
 - **Create:** Add new products with specific details.
 - **Read:** View a comprehensive list of all inventory items in a table.
